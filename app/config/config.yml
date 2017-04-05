@@ -71,7 +71,7 @@ doctrine:
 #         dbname:   "%env(DATABASE_NAME)%"
 #         user:     "%env(DATABASE_USER)%"
 #         password: "%env(DATABASE_PASSWORD)%"
-#         charset:  UTF8
+        charset:  UTF8
 
     orm:
         auto_generate_proxy_classes: "%kernel.debug%"
